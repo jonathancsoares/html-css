@@ -44,7 +44,7 @@ header a {
 
 main {
     margin: 15px;
-    width: 100%;
+    width: 96%;
 }
 
 section {
@@ -54,7 +54,7 @@ section {
 section p {
     margin: 20px;
     line-height: 60px;
-    font-size: clamp(1.3em, 1.5em + 1vw, 3em);;
+    font-size: clamp(1.6em, 1.5em + 1vw, 3em);;
     font-family: 'Sriracha', cursive;
     white-space: nowrap;
 }
@@ -62,8 +62,8 @@ section p {
 section.imagem p {
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
+    min-width: fit-content;
     width: 60%;
-    min-width: 400px;    
 }
 
 section:nth-of-type(2){
