@@ -42,16 +42,19 @@ header a {
     color: white;
 }
 
-section {
+main {
+    margin: 15px;
     width: 100%;
-    min-height: 400px;
-    padding: 30px 50px;
+}
+
+section {
+    width: 100%;    
 }
 
 section p {
     margin: 20px;
     line-height: 60px;
-    font-size: clamp(1.6em, 1.5em + 1vw, 3em);;
+    font-size: clamp(1.3em, 1.5em + 1vw, 3em);;
     font-family: 'Sriracha', cursive;
     white-space: nowrap;
 }
@@ -59,29 +62,29 @@ section p {
 section.imagem p {
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
-    min-width: 400px;
-    max-width: 600px;
+    width: 60%;
+    min-width: 400px;    
 }
 
 section:nth-of-type(2){
-    background:black url('imagens/background001.jpg') right center no-repeat fixed ;
+    background:black url('../imagens/background001.jpg') center center no-repeat fixed ;
     background-size: cover;
 }
 
 section:nth-of-type(4){
-    background:black url('imagens/background002.jpg') right center no-repeat fixed ;
+    background:black url('../imagens/background002.jpg') center center no-repeat fixed ;
     background-size: cover;
 
 }
 
 section:nth-of-type(6){
-    background:black url('imagens/background001.jpg') right center no-repeat fixed ;
+    background:black url('../imagens/background001.jpg') center center no-repeat fixed ;
     background-size: cover;
 
 }
 
 section:nth-of-type(8){
-    background:black url('imagens/background002.jpg') right center no-repeat fixed ;
+    background:black url('../imagens/background002.jpg') center center no-repeat fixed ;
     background-size: cover;
 
 }
