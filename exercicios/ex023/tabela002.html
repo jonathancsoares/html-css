@@ -11,8 +11,8 @@
         }
 
         table {
+            position: relative;
             width: 400px;
-            height: 100px;
             border-collapse: collapse;
         }
 
@@ -28,14 +28,25 @@
             padding: 10px;
             background-color: lightblue;
         }
-       
-        td.num {
-            text-align: right;
-        }
 
         thead, tfoot {
             background-color: lightcoral;
         }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: lightcoral;
+        }
+
+        tbody  tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+       
+        td.num {
+            text-align: right;
+        }
+        
     </style>
 </head>
 <body>
